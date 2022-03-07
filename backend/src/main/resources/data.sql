@@ -21,3 +21,14 @@ INSERT INTO tb_offer(edition, start_Moment, end_Moment, course_id) VALUES ('2.0'
 INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES('Trilha HTML5/CSS3', 'Trilha do conteúdo frontend', 1, 'https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?cs=srgb&dl=pexels-markus-spiske-177598.jpg&fm=jpg', 1, 1);
 INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES('Forum', 'Tire suas dúvidas', 2, 'https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?cs=srgb&dl=pexels-markus-spiske-177598.jpg&fm=jpg', 2, 1);
 INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES('Lives', 'Lives exclusivas para a turma', 3, 'https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?cs=srgb&dl=pexels-markus-spiske-177598.jpg&fm=jpg', 0, 1);
+
+INSERT INTO tb_section(title, description, position, img_Uri, resource_id, prerequisite_id) VALUES('Capítulo 1', 'Neste capítulo vamos iniciar', 1, 'https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?cs=srgb&dl=pexels-markus-spiske-177598.jpg&fm=jpg', 1, null);
+INSERT INTO tb_section(title, description, position, img_Uri, resource_id, prerequisite_id) VALUES('Capítulo 2', 'Continuando a saga', 2, 'https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?cs=srgb&dl=pexels-markus-spiske-177598.jpg&fm=jpg', 1, 1);
+INSERT INTO tb_section(title, description, position, img_Uri, resource_id, prerequisite_id) VALUES('Capítulo 3', 'Neste capítulo vamos iniciar', 1, 'https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?cs=srgb&dl=pexels-markus-spiske-177598.jpg&fm=jpg', 1, 2);
+
+
+
+
+
+
+
