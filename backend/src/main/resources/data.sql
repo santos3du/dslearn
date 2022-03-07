@@ -26,9 +26,8 @@ INSERT INTO tb_section(title, description, position, img_Uri, resource_id, prere
 INSERT INTO tb_section(title, description, position, img_Uri, resource_id, prerequisite_id) VALUES('Capítulo 2', 'Continuando a saga', 2, 'https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?cs=srgb&dl=pexels-markus-spiske-177598.jpg&fm=jpg', 1, 1);
 INSERT INTO tb_section(title, description, position, img_Uri, resource_id, prerequisite_id) VALUES('Capítulo 3', 'Neste capítulo vamos iniciar', 1, 'https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?cs=srgb&dl=pexels-markus-spiske-177598.jpg&fm=jpg', 1, 2);
 
+INSERT INTO tb_enrollment(user_id, offer_id,enroll_Moment, refund_Moment, available, only_Update) VALUES (1, 1, TIMESTAMP WITH TIME ZONE '2021-11-13T13:00:00Z',null , true, false);
 
-
-
-
+INSERT INTO tb_enrollment(user_id, offer_id,enroll_Moment, refund_Moment, available, only_Update) VALUES (2, 1, TIMESTAMP WITH TIME ZONE '2021-11-13T10:00:00Z',null , true, false);
 
 
