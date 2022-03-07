@@ -17,3 +17,7 @@ INSERT INTO tb_course(name, img_Uri, img_Gray_uri) VALUES('BootCamp HTML5/CSS3',
 
 INSERT INTO tb_offer(edition, start_Moment, end_Moment, course_id) VALUES ('1.0',TIMESTAMP WITH TIME ZONE '2021-11-13T03:00:00Z', TIMESTAMP WITH TIME ZONE '2022-11-13T03:00:00Z',1);
 INSERT INTO tb_offer(edition, start_Moment, end_Moment, course_id) VALUES ('2.0',TIMESTAMP WITH TIME ZONE '2022-11-13T03:00:00Z', TIMESTAMP WITH TIME ZONE '2023-11-13T03:00:00Z',1);
+
+INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES('Trilha HTML5/CSS3', 'Trilha do conteúdo frontend', 1, 'https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?cs=srgb&dl=pexels-markus-spiske-177598.jpg&fm=jpg', 1, 1);
+INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES('Forum', 'Tire suas dúvidas', 2, 'https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?cs=srgb&dl=pexels-markus-spiske-177598.jpg&fm=jpg', 2, 1);
+INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) VALUES('Lives', 'Lives exclusivas para a turma', 3, 'https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?cs=srgb&dl=pexels-markus-spiske-177598.jpg&fm=jpg', 0, 1);
