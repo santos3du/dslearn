@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/users")
 public class UserResource {
     private UserService service;
-
     public UserResource(UserService service) {
         this.service = service;
     }
